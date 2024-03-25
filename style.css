@@ -20,10 +20,11 @@ body{
 }
 
 .hero-img{
-  display: flex;
+  /* display: flex; */
   border: 1px solid green;
   height: auto;
-  width: 250px;
+  width: auto;
+  text-align: center;
 }
 
 .hero-img img{
