@@ -2,3 +2,29 @@
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  border: 1px solid blue;
+  border-radius: 15px;
+  height: 400px;
+  width: auto;
+  padding: 20px;
+}
+
+.hero-img{
+  border: 1px solid purple;
+  height: auto;
+}
+
+.hero-img img{
+  border-radius: 10px;
+}
