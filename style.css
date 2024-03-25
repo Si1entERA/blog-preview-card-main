@@ -12,19 +12,69 @@ body{
 }
 
 .container{
-  display: flex;
   border: 1px solid blue;
   border-radius: 15px;
-  height: 400px;
-  width: auto;
+  max-width: 350px;
   padding: 20px;
 }
 
 .hero-img{
-  border: 1px solid purple;
+  display: flex;
+  border: 1px solid green;
   height: auto;
+  width: 250px;
 }
 
 .hero-img img{
   border-radius: 10px;
 }
+
+.category{
+  border: 1px solid purple;
+  height: 50px;
+  width: auto;
+}
+
+.category p{
+  border: 1px solid orangered;
+}
+
+.publish{
+  border: 1px solid purple;
+}
+
+.publish p{
+  border: 1px solid orangered;
+}
+
+.title{
+  border: 1px solid purple;
+}
+
+.title p{
+  border: 1px solid orangered;
+}
+
+.sub-text{
+  display: flex;
+  border: 1px solid purple;
+}
+
+.sub-text p{
+  border: 1px solid orangered;
+}
+
+.footer{
+  border: 1px solid purple;
+}
+
+.footer img{
+  border: 1px solid orangered;
+  display: inline;
+}
+
+.footer p{
+  border: 1px solid orangered;
+  display: inline;
+}
+
