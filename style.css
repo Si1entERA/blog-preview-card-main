@@ -14,7 +14,8 @@ body{
 }
 
 .container{
-  /* border: 1px solid blue; */
+  border: 1px solid #121212;
+  
   border-radius: 15px;
   max-width: 350px;
   padding: 20px;
